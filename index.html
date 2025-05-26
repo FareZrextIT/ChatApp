@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Chat App </title>
+
+</head>
+<body>
+    <ul id="messages"></ul>
+    <form id="chat-form">
+        <input id="chat-message"
+        autocomplete="off"/>
+        <button> Pošalji </button>
+    </form>
+
+    <script
+    src="/socket.io/socket.io.js">
+</script>
+<script>
+    const socket = io();
+
+    socket.on('chat message',
+    (msg) => {
+        const message = document
+        .createElement('li');
+        message.textContent = msg;
+        document.getElementById('messages').appendChild(message);
+
+
+
+    });
+
+    const form = document
+    .getElementById('chat-form');
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const msg = document.getElementById('chat-message').value;
+        socket.emit('chat message', msg);
+        document.getElementById('chat-message').value = '';
+
+
+    
+        });
+</script>
+</body>
+</html>
