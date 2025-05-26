@@ -1,8 +1,10 @@
 ## ChatApp
-**Web aplikacija za dopisivanje ili chat**
+**Web aplikacija za dopisivanje ili chat.**
 
 ## Kolaboratori
-**FareZrextIT and Ahmedovic92**
+**FareZrextIT i Ahmedovic92**
 
-## Cil: 
-**Applikacija ChatApp (funkcijonalno app za kommuniciranje sa drugovima)**
+## Cijl: 
+**Applikacija ChatApp. (funkcijonalno app za kommuniciranje sa drugovima)**
+
+## Code:
