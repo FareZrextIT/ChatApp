@@ -8,7 +8,7 @@ const io = require("socket.io")(
 
 app.get("/",(req, res)=> {
     res.sendFile(
-        __dirname + "/index.html"
+        __dirname + "/index.html",
     );
 
 });
