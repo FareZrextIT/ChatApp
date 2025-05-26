@@ -7,5 +7,7 @@
 ## Cijl: 
 **Applikacija ChatApp. (funkcijonalno app za kommuniciranje sa drugovima)**
 
-## Server.js Code.png
+## Izgled
+![image-1](https://github.com/user-attachments/assets/145ab886-54dd-49d2-a6b4-ca91e8a72b44)
+
 
